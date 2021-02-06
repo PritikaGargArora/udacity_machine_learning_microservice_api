@@ -14,8 +14,8 @@ install:
 
 # Install hadolint
 install_hadolint:	
-	sudo wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64 &&\
-	sudo chmod +x /bin/hadolint
+	wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64 &&\
+	chmod +x /bin/hadolint
 
 # Dockerfile should pass hadolint
 # app.py should pass pylint
