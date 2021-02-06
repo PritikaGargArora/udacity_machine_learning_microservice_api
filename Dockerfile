@@ -12,6 +12,7 @@ COPY model_data/boston_housing_prediction.joblib /app/model_data/boston_housing_
 
 ## Step 3:
 # Install packages from requirements.txt
+# hadolint ignore=DL3013
 RUN pip install --upgrade pip && \
     pip install --trusted-host pypi.python.org -r requirements.txt
 
