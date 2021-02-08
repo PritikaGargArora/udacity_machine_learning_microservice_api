@@ -1,0 +1,12 @@
+unix2102@DESKTOP-H480AT2:/mnt/c/github/pritika$ cd udacity_machine_learning_microservice_api/
+unix2102@DESKTOP-H480AT2:/mnt/c/github/pritika/udacity_machine_learning_microservice_api$ ls
+Dockerfile  Makefile  README.md  Screenshots  app.py  model_data  output_txt_files  requirements.txt  utils
+unix2102@DESKTOP-H480AT2:/mnt/c/github/pritika/udacity_machine_learning_microservice_api$ source ~/.devops/bin/activate
+(.devops) unix2102@DESKTOP-H480AT2:/mnt/c/github/pritika/udacity_machine_learning_microservice_api$ ./utils/make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+(.devops) unix2102@DESKTOP-H480AT2:/mnt/c/github/pritika/udacity_machine_learning_microservice_api$ 

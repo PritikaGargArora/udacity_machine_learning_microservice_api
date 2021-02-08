@@ -1,0 +1,22 @@
+(.devops) unix2102@DESKTOP-H480AT2:/mnt/c/github/pritika/udacity_machine_learning_microservice_api$ ./utils/upload_docker.sh
+Docker ID and Image: pritikagargarora/project-ml-microservicesapi-udacity
+Password: 
+Login Succeeded
+Using default tag: latest
+The push refers to repository [docker.io/pritikagargarora/project-ml-microservicesapi-udacity]
+cae05cd5c78c: Pushed
+9e860e4a774a: Pushed
+0ea9c19312ae: Pushed
+910e7f651f82: Pushed
+c1527ddda87b: Pushed
+799a7872c8c7: Mounted from library/python
+715450468940: Pushed
+c9d608035aef: Mounted from library/python
+bb9c02680a15: Mounted from library/python
+a637c551a0da: Mounted from library/python
+2c8d31157b81: Mounted from library/python
+7b76d801397d: Mounted from library/python
+f32868cde90b: Mounted from library/python
+0db06dff9d9a: Mounted from library/python
+latest: digest: sha256:5f9fa6a4700e1dd3905cb6464adba5d86b037c9b65968e5d078b0b4b29a5036e size: 3262
+(.devops) unix2102@DESKTOP-H480AT2:/mnt/c/github/pritika/udacity_machine_learning_microservice_api$ 

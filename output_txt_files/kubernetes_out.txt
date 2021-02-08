@@ -1,0 +1,16 @@
+(.devops) unix2102@DESKTOP-H480AT2:/mnt/c/github/pritika/udacity_machine_learning_microservice_api$ ./utils/run_kubernetes.sh
+Flag --generator has been deprecated, has no effect and will be removed in the future.
+Error from server (AlreadyExists): pods "project-ml-microservicesapi-udacity" already exists
+pod/project-ml-microservicesapi-udacity condition met
+NAME                                  READY   STATUS    RESTARTS   AGE
+project-ml-microservicesapi-udacity   1/1     Running   0          4h4m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+
+(.devops) unix2102@DESKTOP-H480AT2:/mnt/c/github/pritika/udacity_machine_learning_microservice_api$ ./utils/make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
