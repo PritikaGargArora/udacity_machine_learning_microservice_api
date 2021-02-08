@@ -54,13 +54,13 @@ Sign up on [CircleCI.com](https://circleci.com/signup/) with GitHub credentials.
 
 ## Run the app:
 
-* Docker Image:  `./utils/run_docker.sh` to Build an docker image,list images to verify that this app is dockerized
-
-* Run through Docker : `./utils/upload_docker.sh`
+* Run through Docker:  `./utils/run_docker.sh` to Build an docker image,list images to verify that this app is dockerized
 
 * Now can access the app on localhost port 8000. [http://localhost:8000](http://localhost:8000)
 
 * Test the app using command: `./utils/make_prediction.sh`
+
+* Upload to Docker Hub : `./utils/upload_docker.sh`
 
 * Run through Kubernetes:  `./utils/run_kubernetes.sh` to run a container in Kubernetes cluster (make sure to have one ready the best option to locally is use `minikube`)
 
