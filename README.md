@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/pritikagargarora/udacity_machine_learning_microservice_api.svg?style=svg)](https://app.circleci.com/pipelines/github/PritikaGargArora/udacity_machine_learning_microservice_api)
+[![CircleCI](https://circleci.com/gh/PritikaGargArora/udacity_machine_learning_microservice_api.svg?style=svg)](https://app.circleci.com/pipelines/github/PritikaGargArora/udacity_machine_learning_microservice_api)
 
 
 # Project: Operationalize a Machine Learning Microservice API.
