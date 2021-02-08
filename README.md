@@ -1,6 +1,4 @@
-
-[![Build Status]
-(https://circleci.com/gh/pritikagargarora/udacity_machine_learning_microservice_api.svg?style=svg)](https://app.circleci.com/pipelines/github/PritikaGargArora/udacity_machine_learning_microservice_api)
+[![Build Status](https://circleci.com/gh/pritikagargarora/udacity_machine_learning_microservice_api.svg?style=svg)](https://app.circleci.com/pipelines/github/PritikaGargArora/udacity_machine_learning_microservice_api)
 
 
 # Project: Operationalize a Machine Learning Microservice API.
@@ -33,30 +31,35 @@ Sign up on [CircleCI.com](https://circleci.com/signup/) with GitHub credentials.
 
 
 ### Project Details/Files
->  `app.py` application script
-> `model_data` folder with the trained model and data for prediction
-> `requirements.txt` dependencies of app
-> `.circleci/config.yml` folder includes the configuration to CircleCI
-> `output_txt_files`  folder includes docker and kubernetes outputs files
-> `Screenshots`  folder includes some additional captures
-> `Dockerfile` file to deploy an image for the app to be runned on a container
-> `Makefile`  includes commands to make setup, install, test, lint, run_docker, run_kubernetes, upload_docker, all
-> `run_docker.sh` script to build and start container 
-> `run_kubernetes.sh` script to run on Kubernetes
-> `upload_docker.sh` script to upload to dockerhub container
-> `make_prediction.sh` script to test application
+*  `app.py` application script
+* `model_data` folder with the trained model and data for prediction
+* `requirements.txt` dependencies of app
+* `.circleci/config.yml` folder includes the configuration to CircleCI
+* `output_txt_files`  folder includes docker and kubernetes outputs files
+* `Screenshots`  folder includes some additional captures
+* `Dockerfile` file to deploy an image for the app to be runned on a container
+* `Makefile`  includes commands to make setup, install, test, lint, run_docker, run_kubernetes, upload_docker, all
+* `run_docker.sh` script to build and start container 
+* `run_kubernetes.sh` script to run on Kubernetes
+* `upload_docker.sh` script to upload to dockerhub container
+* `make_prediction.sh` script to test application
 
 ## Environment Configuration
-> Run `make setup` to create a virtual env and activate it
-> Run `make install` to install the necessary dependencies
-> Run `install_hadolint` to install the hadolint
-> Run `make lint` to perform code lynting
+* Run `make setup` to create a virtual env and activate it
+
+* Run `make install` to install the necessary dependencies
+
+* Run `install_hadolint` to install the hadolint
+
+* Run `make lint` to perform code lynting
 
 ## Run the app:
-> Run through Docker:  `./utils/run_docker.sh` to Build an docker image,list images to verify that this app is dockerized
-> Now can access the app on localhost port 8000. [http://localhost:8000](http://localhost:8000)
 
-> Test the app using command: ./utils/make_prediction.sh
+* Run through Docker:  `./utils/run_docker.sh` to Build an docker image,list images to verify that this app is dockerized
 
-> Run through Kubernetes:  `./utils/run_kubernetes.sh` to run a container in Kubernetes cluster (make sure to have one ready the best option to locally is use `minikube`)
-> Access the app on localhost port 8000. [http://localhost:8000](http://localhost:8000)
+* Now can access the app on localhost port 8000. [http://localhost:8000](http://localhost:8000)
+
+* Test the app using command: ./utils/make_prediction.sh
+
+* Run through Kubernetes:  `./utils/run_kubernetes.sh` to run a container in Kubernetes cluster (make sure to have one ready the best option to locally is use `minikube`)
+* Access the app on localhost port 8000. [http://localhost:8000](http://localhost:8000)
