@@ -2,9 +2,8 @@
 
 
 # Project: Operationalize a Machine Learning Microservice API.
- project goal is to operationalize pre-trained, sklearn model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on
+ The project's goal is to operationalize pre-trained, sklearn model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on
 
- Project goal is to operationalize this working, machine learning microservice using kubernetes, which is an open-source system for automating the management of containerized applications
 
 ###  Dependencies
 #### 1. Python
@@ -55,9 +54,11 @@ Sign up on [CircleCI.com](https://circleci.com/signup/) with GitHub credentials.
 
 ## Run the app:
 
-* Run through Docker:  `./utils/run_docker.sh` to Build an docker image,list images to verify that this app is dockerized
+* Docker Image:  `./utils/run_docker.sh` to Build an docker image,list images to verify that this app is dockerized
 
 * Now can access the app on localhost port 8000. [http://localhost:8000](http://localhost:8000)
+
+* Run through Docker : `./utils/upload_docker.sh`
 
 * Test the app using command: ./utils/make_prediction.sh
 
